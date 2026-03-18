@@ -243,27 +243,7 @@ jupyter notebook nlp-ai.ipynb
 | Hardware | Time per epoch | Total (5 epochs) |
 |----------|---------------|-----------------|
 | Kaggle T4 GPU | ~15–20 min | ~75–100 min |
-| Local RTX 3090 | ~10–12 min | ~50–60 min |
 | CPU only | ~4–6 hours | Not recommended |
-
----
-
-## Dependencies
-
-| Package | Version used | Purpose |
-|---------|-------------|---------|
-| `torch` | 2.9.0+cu126 | Model training |
-| `transformers` | latest | BioBERT tokeniser and model |
-| `accelerate` | latest | HuggingFace training utilities |
-| `sentence-transformers` | latest | Sentence embeddings (future modules) |
-| `faiss-cpu` | latest | Vector similarity search (future modules) |
-| `scikit-learn` | latest | Class weights, metrics, train/test split |
-| `pandas` | 2.3.3 | Data loading and manipulation |
-| `numpy` | 2.0.2 | Numerical operations |
-| `matplotlib` | latest | Plots and charts |
-| `seaborn` | latest | Confusion matrix heatmap |
-| `anthropic` | latest | LLM integration (future modules) |
-| `gradio` | latest | Demo interface (future modules) |
 
 ---
 
